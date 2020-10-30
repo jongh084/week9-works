@@ -1,0 +1,189 @@
+@keyframes foo {
+  0% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+  	transform: scale(1.5);
+  }
+}
+
+.antman {
+	width: 14%;
+	top: 0;
+	left: 45%;
+	animation-name: foo;
+	animation-timing-function: ease-in-out;
+	transition-property: all;
+	transition-duration: 1s;
+	animation-duration: 3s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes poster{
+	0%{
+		top: 0%;
+	}
+
+	20%{
+		top: 40%;
+	}
+}
+
+@-webkit-keyframes crow{
+	0%{
+		top: 0%;
+	}
+
+	20%{
+		top: 50%;
+	}
+}
+
+.pym {
+	position: absolute;
+    width: 10%;
+    top: 0;
+    left: 1%;
+    transition-property: all;
+    transition-duration: 1s;
+    animation-name: crow;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.pym2 {
+	position: absolute;
+    width: 13%;
+    top: 0;
+    left: 14%;
+    transition-property: all;
+    transition-duration: 5s;
+    animation-name: poster;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.pym3 {
+	position: absolute;
+    width: 10%;
+    top: 0;
+    left: 30%;
+    transition-property: all;
+    transition-duration: 1s;
+    animation-name: crow;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.pym4 {
+	position: absolute;
+    width: 10%;
+    top: 0;
+    left: 60%;
+    transition-property: all;
+    transition-duration: 1s;
+    animation-name: crow;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.pym5 {
+	position: absolute;
+    width: 13%;
+    top: 0;
+    left: 75%;
+    transition-property: all;
+    transition-duration: 5s;
+    animation-name: poster;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.pym6 {
+	position: absolute;
+    width: 10%;
+    top: 0;
+    left: 90%;
+    transition-property: all;
+    transition-duration: 1s;
+    animation-name: crow;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes imposter {
+	0% {
+		margin-left: 0;
+	}
+
+	100% {
+		margin-left: 600px;
+	}
+}
+.janet {
+	width: 20%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	float: left;
+	animation-name: imposter;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes among {
+	0% {
+		margin-right: 0;
+	}
+
+	100% {
+		margin-right: 600px;
+	}
+}
+.hank {
+	width: 20%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	float: right;
+	animation-name: among;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes us {
+	0% {
+		margin-left: 0;
+	}
+
+	100% {
+		margin-left: 680px;
+	}
+}
+.yellow {
+	font-size: 200%;
+	font-weight: bold;
+	font-family: helvetica;
+	display: flex;
+	align-items: center;
+	float: left;
+	animation-name: us;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+}
